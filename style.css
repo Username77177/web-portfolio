@@ -1,0 +1,28 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: var(--fc);
+    }
+    
+     :root {
+        --bc: rgba(91, 91, 91, 1);
+        --bc-alt-1: rgba(85, 91, 110, 1);
+        --bc-alt-2: rgba(30, 30, 36, 1);
+        --gr2: rgba(251, 159, 137, 1);
+        --fc: rgba(239, 239, 235, 1);
+    }
+    
+    .block {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+    
+    #first_block {
+        background-color: #fbab7e;
+        background: linear-gradient(-30deg, #fbab7e, #f8c270, #f7ce68);
+    }
+    
+    #first_block::after {}
